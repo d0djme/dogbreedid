@@ -25,9 +25,6 @@ logs_dir = os.path.join(base_dir, 'logs')
 os.makedirs(model_dir, exist_ok=True)
 os.makedirs(logs_dir, exist_ok=True)
 
-batch_size = 32
-img_size = 299
-model_name = 'model_bs'+str(batch_size)+'_img'+str(img_size)
 
 # Создание объектов ImageDataGenerator
 train_datagen = ImageDataGenerator(
